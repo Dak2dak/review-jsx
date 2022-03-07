@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import myImage from '../imageInSrc.jfif';
 
-export class AnotherComponent extends Component {
+class AnotherComponent extends Component {
 
     render() {
         return (
             <div>
                 <img src={myImage} alt="myimage" />
+                <hr />
+                <img src="/imageInPublic.jfif" alt="myimage" />
             </div>
         )
     }
